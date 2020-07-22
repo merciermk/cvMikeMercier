@@ -1,13 +1,23 @@
 body{
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(218, 216, 216);
 
+}
+table{
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 td{
   column-width: 200px;
 }
+
+h2::first-letter{
+  text-transform : uppercase;
+}
+
+
 
 .tableSpace{
   height: 20px;
@@ -21,7 +31,6 @@ td{
 }
 
 .column_left{
-  
   width: 300px;
   height: 1100px;
   background-color: #225565;
@@ -31,8 +40,9 @@ td{
 .column_left h2{
   text-align: center;
 }
-
-
+.column_left p{
+  margin-left: 20px;
+}
 .col_left_ID img{
   height: 300px;
 }
@@ -41,10 +51,23 @@ td{
   width: 700px;
   height: 1100px;
   background: whitesmoke;
+  color: rgb(70, 70, 70);
+}
+
+.col_right_profile p{
+  text-align: justify;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+.column_right h2{
+  color: #225565;
+  margin-left: 30px;
 }
 
 .col_right_exp{
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .col_right_leftSide{
