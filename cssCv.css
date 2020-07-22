@@ -1,3 +1,10 @@
+body{
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
 .container{
     margin: 50px auto;
     width: 1000px;
@@ -17,6 +24,7 @@
   text-align: center;
 }
 
+
 .col_left_ID img{
   height: 300px;
 }
@@ -30,4 +38,8 @@
 
 .col_right_exp{
   margin-top: 100px;
+}
+
+.col_right_leftSide{
+  float:left;
 }
