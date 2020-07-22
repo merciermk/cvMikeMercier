@@ -1,23 +1,31 @@
 body{
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(218, 216, 216);
 
 }
 
+td{
+  column-width: 200px;
+}
 
+.tableSpace{
+  height: 20px;
+}
 .container{
-    margin: 50px auto;
+    display: flex;
+    margin: auto;
     width: 1000px;
     height: 1100px;
-    background: #fff;
+    background-color: lime;
 }
 
 .column_left{
-  float:left;
+  
   width: 300px;
   height: 1100px;
-  background: #327D9D;
-  color: white;
+  background-color: #225565;
+  color: whitesmoke;
 }
 
 .column_left h2{
@@ -30,10 +38,9 @@ body{
 }
 
 .column_right{
-  float:right;
   width: 700px;
   height: 1100px;
-  background: #A99265;
+  background: whitesmoke;
 }
 
 .col_right_exp{
@@ -42,4 +49,8 @@ body{
 
 .col_right_leftSide{
   float:left;
+  margin-top: 0px;
+}
+.col_right_rightSide{
+  margin-top: auto;
 }
