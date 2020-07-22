@@ -1,6 +1,5 @@
 .container{
     margin: 50px auto;
-
     width: 1000px;
     height: 1100px;
     background: #fff;
@@ -10,19 +9,25 @@
   float:left;
   width: 300px;
   height: 1100px;
-  background-color: red;
+  background: #327D9D;
+  color: white;
 }
 
 .column_left h2{
   text-align: center;
 }
+
+.col_left_ID img{
+  height: 300px;
+}
+
 .column_right{
-  float:left;
+  float:right;
   width: 700px;
   height: 1100px;
   background: #A99265;
 }
 
-.col_left_ID img{
-  height: 100px;
+.col_right_exp{
+  margin-top: 100px;
 }
