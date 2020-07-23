@@ -63,7 +63,7 @@ a:visited{
   margin-right: auto;
   margin-top: 20px;
   height: 200px;
-  weight: 200px;
+  width: 200px;
   border-radius: 50%;
 }
 
@@ -80,13 +80,10 @@ a:visited{
   margin-left: 40px;
 }
 
+
 .column_right h2{
   color: #225565;
   margin-left: 30px;
-}
-
-.col_right_exp{
- 
 }
 
 .col_right_leftSide{
