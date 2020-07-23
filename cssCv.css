@@ -1,9 +1,10 @@
 body{
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   background-color: rgb(218, 216, 216);
-
+  line-height: 20px;
 }
+
 table{
   margin-left: 40px;
   margin-right: 40px;
@@ -17,7 +18,10 @@ h2::first-letter{
   text-transform : uppercase;
 }
 
-
+.surnameName{
+  font-size: 35px;
+  color: rgb(179, 179, 179);
+}
 
 .tableSpace{
   height: 20px;
@@ -40,11 +44,19 @@ h2::first-letter{
 .column_left h2{
   text-align: center;
 }
-.column_left p{
+.column_left p,
+.column_left a{
   margin-left: 20px;
 }
-.col_left_ID img{
-  height: 300px;
+
+.idPhoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 200px;
+  weight: 200px;
+  border-radius: 50%;
 }
 
 .column_right{
@@ -60,14 +72,13 @@ h2::first-letter{
   margin-left: 40px;
 }
 
-
 .column_right h2{
   color: #225565;
   margin-left: 30px;
 }
 
 .col_right_exp{
-  margin-top: 30px;
+ 
 }
 
 .col_right_leftSide{
