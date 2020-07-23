@@ -18,6 +18,14 @@ h2::first-letter{
   text-transform : uppercase;
 }
 
+a:link{
+  color: aliceblue;
+}
+
+a:visited{
+  color: cadetblue;
+}
+
 .surnameName{
   font-size: 35px;
   color: rgb(179, 179, 179);
